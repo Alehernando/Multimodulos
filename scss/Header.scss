@@ -1,0 +1,97 @@
+@import 'variables.scss';
+
+.Banner{
+    background-image: url("../Multimedia/Destacados/bannergradient.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    display: flex;
+    flex-shrink: 1;
+    flex-basis: 100px;
+    align-items: stretch;
+    flex-flow: column nowrap;
+    grid-area: "Banner";
+}
+
+h1{
+    @extend %h1;
+    text-align: left;
+    color:rgb(8, 8, 8);
+    font-size: 22px;
+    margin-top: 5px;
+    padding:20px;
+    margin:20px;
+}
+.NavegadorCentral{
+    list-style:none;
+    font-size: 16px white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 60px;  
+    padding: 20px 0px; 
+    margin:20px;
+    grid-area: "NavegadorCentral";
+
+    ul{
+        display:flex;
+    li{
+        display: inline-block;
+        font-size: 15px black;
+        a:hover{
+            border-bottom:2px rgb(182, 157, 157) solid ;
+            background-color: black;
+            ul{
+                position: absolute;
+                display: none;
+                li:hover{
+                    position: relative;
+                    padding:5px;
+                    display: inline-block;
+                    border-radius: 10px;
+                    
+                }
+            }
+}
+}
+}
+}
+.NavegadorCentral ul ul{
+    position: absolute;
+    display: none;
+}
+.NavegadorCentral ul ul li{
+    display: block;
+    position: relative;
+}
+.NavegadorCentral ul li{
+    padding:5px;
+    display: inline-block;
+    border-radius: 10px;
+}
+.NavegadorCentral ul li:hover ul{
+    display: block;
+}
+a{
+    color: rgb(245, 239, 233);
+    list-style:none;
+    text-decoration: none;
+}
+.LogoNuevo{
+    position:relative;
+    height: 100px;
+    width:200px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 15px;
+    animation-name: flip;
+    animation-timing-function: ease-in;
+    animation-iteration-count:initial;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    margin-top:20px;
+    padding:20px;
+}
+

@@ -56,6 +56,7 @@ h3 {
 
 h4 {
   padding: 10px;
+  margin: 10px;
   height: 50px;
   font: #fafafa 18px;
   background-image: linear-gradient(to bottom right, grey, #353333);
@@ -442,29 +443,21 @@ tr, td {
 .Contacto {
   border: 1px solid black;
   background-color: #999;
-  padding: 1px;
-  margin: 1px;
+  padding: 20px;
+  margin: 20px;
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  background-size: contain;
   grid-area: "Contacto"; }
-
-.Contacto {
-  display: flex;
-  flex-flow: row wrap; }
 
 .seccion {
   border: 1px solid black;
   background-color: #999;
   padding: 20px;
-  margin: 10px;
+  margin: 20px;
   grid-area: "Seccion"; }
 
 .Redes {
   background-color: #999;
-  padding: 20px;
-  margin: 10px;
+  padding: 30px;
   justify-content: center;
   align-items: center; }
 
@@ -472,7 +465,6 @@ tr, td {
   border: 5px;
   background-color: #999;
   padding: 20px;
-  margin-left: 20px;
   justify-content: center;
   align-items: center; }
 
@@ -480,7 +472,6 @@ tr, td {
   border: 5px;
   background-color: #999;
   padding: 20px;
-  margin-left: 20px;
   justify-content: center;
   align-items: center; }
 
